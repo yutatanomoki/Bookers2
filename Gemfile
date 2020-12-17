@@ -75,3 +75,5 @@ gem "factory_bot_rails"
 gem 'faker'
 
 gem 'kaminari','~> 1.2.1'
+
+
