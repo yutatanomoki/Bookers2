@@ -21,10 +21,9 @@
               <td>
                   <%= link_to book_path(book.id) do %>
                   <%= attachment_image_tag @user, :profile_image, :fill, 100, 100, format: 'jpeg', fallback: "no_image.jpg" %>
-                  <h3 class="profile-name"><%= @user.name %></h3>
                   <% end %>
               </td>
-              <td><%= book.book_name %></td>
+              <td><%= link_to book.book_name, book_path(book) %></td>
               <td><%= book.body %></td>  
             </tr> 
           <% end %>

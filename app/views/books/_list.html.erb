@@ -1,3 +1,23 @@
+<% if book.errors.any? %>
+  <div id="error_explanation" class="alert alert-danger">
+    <h3><%= book.errors.count %>error prohibited this obj from being saved:</h3>
+      <ul>
+        <% book.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+<% end %>
+
+<% if @user.errors.any? %>
+  <div id="error_explanation" class="alert alert-danger">
+    <ul>
+      <% @user.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+
 <div class="profile-container">
 <h2>User info</h2>
    <%= attachment_image_tag user, :profile_image, :fill, 100, 100, format: 'jpeg', fallback: "no_image.jpg" %>
@@ -14,21 +34,18 @@
         </tr>
     </tbody>
    </table>
-   <% if @user.id == current_user.id %>
-       <%= link_to edit_user_path(user), class: "btn btn-outline-secondary btn-block" do %>
-          <i class="fas fa-user-cog"></i>
+   <div class="row">
+       <% if @user.id == current_user.id %>
+           <%= link_to edit_user_path(user), class: "btn btn-outline-secondary btn-block" do %>
+              <i class="fas fa-user-cog"></i>
+           <% end %>
        <% end %>
-   <% end %>
+   </div>
 </div>
 
 
-<h2>New Book</h2>
-<% if book.errors.any? %>
-  <%= book.errors.count %>error prohibited this obj from being saved:
-  <% book.errors.full_messages.each do |message| %>
-    <%= message %>
-  <% end %>
-<% end %>
+<h2 class="mt-3">New book</h2>
+
 
 <%= form_with model: book, local:true do |f| %>
   <h4>Title</h4>
