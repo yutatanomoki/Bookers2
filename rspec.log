@@ -287,7 +287,7 @@ Failures:
      [31mFailure/Error: let!(:book) { build(:book, user_id: user.id) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `title=' for #<Book:0x0000000008159b88>[0m
+     [31m  undefined method `title=' for #<Book:0x0000000007011218>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -306,7 +306,7 @@ Failures:
      [31mFailure/Error: let!(:book) { build(:book, user_id: user.id) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `title=' for #<Book:0x00000000083f6a08>[0m
+     [31m  undefined method `title=' for #<Book:0x00000000072c1f80>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -325,7 +325,7 @@ Failures:
      [31mFailure/Error: let!(:book) { build(:book, user_id: user.id) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `title=' for #<Book:0x000000000840a198>[0m
+     [31m  undefined method `title=' for #<Book:0x00000000072d4f68>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -344,7 +344,7 @@ Failures:
      [31mFailure/Error: let!(:book) { build(:book, user_id: user.id) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `title=' for #<Book:0x000000000841d770>[0m
+     [31m  undefined method `title=' for #<Book:0x00000000072efe80>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -401,7 +401,7 @@ Failures:
      [31mFailure/Error: is_expected.to eq '/home/about'[0m
      [31m[0m
      [31m  expected: "/home/about"[0m
-     [31m       got: "/"[0m
+     [31m       got: "/homes/about"[0m
      [31m[0m
      [31m  (compared using ==)[0m
      [31m[0m
@@ -421,7 +421,7 @@ Failures:
      [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `title=' for #<Book:0x0000000008be3860>[0m
+     [31m  undefined method `title=' for #<Book:0x0000000007ac3d28>[0m
      [31m[0m
      [31m[0m
      [31m[0m
@@ -443,7 +443,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008d6b2f0>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007bf8220>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -465,7 +465,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008ea4bf8>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007d84238>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -487,7 +487,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009012d00>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007ef1990>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -509,7 +509,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009132910>[0m
+      [31m  undefined method `title=' for #<Book:0x000000000800d9f0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -531,7 +531,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009441bd8>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000081a0178>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -553,7 +553,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000094bb7a8>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008389ea8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -575,7 +575,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009528ad8>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000083fb940>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -597,7 +597,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000095bde58>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008498c18>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -619,7 +619,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000968fdb8>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008579920>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -641,7 +641,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009720c50>[0m
+      [31m  undefined method `title=' for #<Book:0x000000000863f2d8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -663,7 +663,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000099a5890>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008987850>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -685,7 +685,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009d46990>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008bf92c8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -707,7 +707,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009e30090>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008d02f98>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -729,7 +729,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009e8e6e0>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008d49df8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -751,7 +751,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009f7ba08>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008e36928>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -773,7 +773,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000a0b7638>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008f75fa0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -795,7 +795,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000a1f6378>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000090d3c30>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -817,7 +817,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000075adf78>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000066218c0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -839,7 +839,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000007fd3750>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000006ebb5d0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -861,7 +861,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000815b280>[0m
+      [31m  undefined method `title=' for #<Book:0x000000000701d2e8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -883,7 +883,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008306e40>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000071ed618>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -905,7 +905,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000840e158>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000072e9760>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -927,7 +927,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000084751c8>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007357968>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -949,7 +949,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000084d5d20>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000073b0680>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -971,7 +971,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008530d10>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000074216c8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -993,7 +993,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000085daa90>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000074c6510>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1015,7 +1015,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000086c4780>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000075b0db8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1037,7 +1037,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008804190>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000076f5ea8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1059,7 +1059,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000007d4fcb8>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000070cc3d8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1081,7 +1081,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000007062de8>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000029a5180>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1103,7 +1103,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000007df0c58>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007128908>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1125,7 +1125,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008737500>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000006e5eec0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1147,7 +1147,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000007d98e40>[0m
+      [31m  undefined method `title=' for #<Book:0x000000000773d438>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1169,7 +1169,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000892c248>[0m
+      [31m  undefined method `title=' for #<Book:0x000000000780f050>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1191,7 +1191,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008c00fa0>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007ad9b00>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1213,7 +1213,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008cc91f8>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007bab3d0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1235,7 +1235,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008d90028>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007c621e8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1257,7 +1257,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008e38a48>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007d10d60>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1279,7 +1279,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008ef9400>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007dd2b68>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1301,7 +1301,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008fa68d0>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007e7de50>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1323,7 +1323,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000090605f0>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007f49a78>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1345,7 +1345,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009121430>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007ff82f8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1367,7 +1367,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000091c2560>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008080bd0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1389,7 +1389,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000092eab90>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000081a9c00>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1411,7 +1411,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009470f00>[0m
+      [31m  undefined method `title=' for #<Book:0x000000000832d298>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1433,7 +1433,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000094b4d90>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008370ca0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1455,7 +1455,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000094f9260>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000083b8988>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1477,7 +1477,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000095425f0>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000084015c0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1499,7 +1499,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000958aad0>[0m
+      [31m  undefined method `title=' for #<Book:0x000000000844ab30>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1521,7 +1521,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000095d18e0>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008491350>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1543,7 +1543,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009652eb8>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008512ec8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1565,7 +1565,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000096a8778>[0m
+      [31m  undefined method `title=' for #<Book:0x000000000856c388>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1587,7 +1587,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000970b008>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000085cb6d0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1609,7 +1609,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000097790d0>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008644f30>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1631,7 +1631,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000998bf08>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008840988>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1653,7 +1653,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009ad1868>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008997778>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1675,7 +1675,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009d08c58>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008b9eb20>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1697,7 +1697,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009d5f940>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008c1a018>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1719,7 +1719,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009e1cd38>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008cda0c0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1741,7 +1741,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009e56c90>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008d13a28>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1763,7 +1763,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009e801a8>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008d41608>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1785,7 +1785,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009ee0d50>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008d9dd68>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1807,7 +1807,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000009f7bd00>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008e30438>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1829,7 +1829,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000a020558>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008ee0b80>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1851,7 +1851,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000a0b01f8>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000008f72080>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1873,7 +1873,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000a17b948>[0m
+      [31m  undefined method `title=' for #<Book:0x000000000902c4f8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1895,7 +1895,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000a1f4618>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000090b20f8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1917,7 +1917,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000007233b90>[0m
+      [31m  undefined method `title=' for #<Book:0x000000000619a068>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1939,7 +1939,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000007f84880>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000006e46438>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1961,7 +1961,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000814c370>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000070093d8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -1983,7 +1983,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000082f8430>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000071badf8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2005,7 +2005,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000840d0c8>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000072d8708>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2027,7 +2027,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008482828>[0m
+      [31m  undefined method `title=' for #<Book:0x000000000734b6e0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2049,7 +2049,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000084e2160>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000073a98a8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2071,7 +2071,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008552230>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007409910>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2093,7 +2093,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000085f93c8>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000074c6cb8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2115,7 +2115,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000870dca0>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007517348>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2137,7 +2137,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000088695b8>[0m
+      [31m  undefined method `title=' for #<Book:0x000000000771c0d0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2159,7 +2159,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000007141840>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000005fef0d8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2181,7 +2181,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000004262d58>[0m
+      [31m  undefined method `title=' for #<Book:0x000000000311cc10>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2203,7 +2203,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008299278>[0m
+      [31m  undefined method `title=' for #<Book:0x00000000071493b0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2225,7 +2225,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000007fbea08>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000006c33ba0>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2247,7 +2247,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x00000000088cd400>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007785cd8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2269,7 +2269,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008b947b0>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007a56318>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2291,7 +2291,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008c684e8>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007b2c918>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2313,7 +2313,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008d42968>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007bf8f90>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2335,7 +2335,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008df5298>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007cacd60>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2357,7 +2357,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008ebff48>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007d6e370>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2379,7 +2379,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x0000000008f737a0>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007e2f2c8>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2401,7 +2401,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `title=' for #<Book:0x000000000902c818>[0m
+      [31m  undefined method `title=' for #<Book:0x0000000007ef3290>[0m
       [31m[0m
       [31m[0m
       [31m[0m
@@ -2423,7 +2423,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x00000000090fdcb0>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000007fb62b8>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2445,7 +2445,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x00000000091b5f18>[0m
+       [31m  undefined method `title=' for #<Book:0x000000000806a1a0>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2467,7 +2467,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x00000000092b22e0>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000008165f00>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2489,7 +2489,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x000000000946aee8>[0m
+       [31m  undefined method `title=' for #<Book:0x000000000831a4e0>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2511,7 +2511,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x00000000094ade28>[0m
+       [31m  undefined method `title=' for #<Book:0x000000000835d588>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2533,7 +2533,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x00000000094f0ed0>[0m
+       [31m  undefined method `title=' for #<Book:0x00000000083a4280>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2555,7 +2555,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000009538de8>[0m
+       [31m  undefined method `title=' for #<Book:0x00000000083f3c68>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2577,7 +2577,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x000000000958a878>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000008439ab0>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2599,7 +2599,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x00000000095db480>[0m
+       [31m  undefined method `title=' for #<Book:0x00000000084846c8>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2621,7 +2621,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000009656c70>[0m
+       [31m  undefined method `title=' for #<Book:0x000000000850b498>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2643,7 +2643,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x00000000096bae50>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000008560498>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2665,7 +2665,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x000000000970cdb8>[0m
+       [31m  undefined method `title=' for #<Book:0x00000000085c1ae0>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2687,7 +2687,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000009795050>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000008646178>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2709,7 +2709,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000009995a30>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000008848e30>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2731,7 +2731,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000009aefed0>[0m
+       [31m  undefined method `title=' for #<Book:0x00000000089a3028>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2753,7 +2753,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000009cf0fb8>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000008ba4408>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2775,7 +2775,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000009d68810>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000008c27600>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2797,7 +2797,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000009e28110>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000008ce63e8>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2819,7 +2819,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000009e61118>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000008d1f878>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2841,7 +2841,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000009e950f8>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000008d527a0>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2863,7 +2863,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000009effbb0>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000008db25b0>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2885,7 +2885,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000009f962e0>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000008e44c80>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2907,7 +2907,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x000000000a042bf8>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000008ef4a18>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2929,7 +2929,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x000000000a0f36b0>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000008f9fc60>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2951,7 +2951,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x000000000a1904b0>[0m
+       [31m  undefined method `title=' for #<Book:0x000000000904f750>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2973,7 +2973,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000004971888>[0m
+       [31m  undefined method `title=' for #<Book:0x000000000366fc58>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -2995,7 +2995,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000007e18ff0>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000006cd1b48>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3017,7 +3017,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x00000000081322e0>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000006fe9948>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3039,7 +3039,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x000000000822b728>[0m
+       [31m  undefined method `title=' for #<Book:0x00000000070de588>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3061,7 +3061,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x00000000083ed930>[0m
+       [31m  undefined method `title=' for #<Book:0x00000000072b9380>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3083,7 +3083,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x00000000084670a0>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000007337b68>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3105,7 +3105,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x00000000084cbc08>[0m
+       [31m  undefined method `title=' for #<Book:0x000000000739fe48>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3127,7 +3127,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x000000000852f500>[0m
+       [31m  undefined method `title=' for #<Book:0x00000000073fc328>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3149,7 +3149,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x00000000085dd948>[0m
+       [31m  undefined method `title=' for #<Book:0x00000000074b0080>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3171,7 +3171,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x00000000086ec690>[0m
+       [31m  undefined method `title=' for #<Book:0x00000000075bb290>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3193,7 +3193,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x000000000886bf98>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000006e022d8>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3215,7 +3215,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x000000000713d718>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000005ff1428>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3237,7 +3237,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x000000000425dbc8>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000005f12390>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3259,7 +3259,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x000000000829a538>[0m
+       [31m  undefined method `title=' for #<Book:0x00000000075d1f40>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3281,7 +3281,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000007d6fe50>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000006c42330>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3303,7 +3303,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x00000000088e5078>[0m
+       [31m  undefined method `title=' for #<Book:0x00000000077b5b18>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3325,7 +3325,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000008bc5d60>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000007a90478>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3347,7 +3347,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000008ca3ca0>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000007b6a948>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3369,7 +3369,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000008d7b3a8>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000007c38cf8>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3391,7 +3391,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000008e28d78>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000007cf2b30>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3413,7 +3413,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000008efa530>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000007dc3a50>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3435,7 +3435,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000008fb6190>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000007e762e0>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3457,7 +3457,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000009093ab8>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000007f50b70>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3479,7 +3479,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000009157670>[0m
+       [31m  undefined method `title=' for #<Book:0x00000000080162a8>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3501,7 +3501,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x00000000091e3f80>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000008143db0>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3523,7 +3523,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000009445918>[0m
+       [31m  undefined method `title=' for #<Book:0x00000000082fe588>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3545,7 +3545,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x0000000009492560>[0m
+       [31m  undefined method `title=' for #<Book:0x000000000834a7f8>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3567,7 +3567,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `title=' for #<Book:0x00000000094d4550>[0m
+       [31m  undefined method `title=' for #<Book:0x0000000008397be8>[0m
        [31m[0m
        [31m[0m
        [31m[0m
@@ -3585,7 +3585,7 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.1.0/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-Finished in 5.91 seconds (files took 1.4 seconds to load)
+Finished in 5.76 seconds (files took 1.42 seconds to load)
 [31m197 examples, 152 failures[0m
 
 Failed examples:
