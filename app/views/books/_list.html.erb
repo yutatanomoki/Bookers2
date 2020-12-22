@@ -3,7 +3,7 @@
     <h3><%= book.errors.count %>error prohibited this obj from being saved:</h3>
       <ul>
         <% book.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
+          <li>error<%= message %></li>
         <% end %>
       </ul>
 <% end %>
@@ -25,11 +25,9 @@
     </tbody>
    </table>
    <div class="row">
-       <% if @user.id == current_user.id %>
-           <%= link_to edit_user_path(user), class: "btn btn-outline-secondary btn-block" do %>
-              <i class="fas fa-user-cog"></i>
-           <% end %>
-       <% end %>
+        <%= link_to edit_user_path(user), class: "btn btn-outline-secondary btn-block" do %>
+            <i class="fas fa-user-cog"></i>
+        <% end %>   
    </div>
 </div>
 
